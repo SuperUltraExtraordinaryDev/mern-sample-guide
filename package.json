@@ -3,8 +3,12 @@
   "version": "0.1.0",
   "description": "MERN Stack Sample Guide for someone who want to be a senior",
   "scripts": {
+    "dev": "concurrently \"npm run dev-server\" \"npm run dev-client\"",
+    "dev-server": "cd server & npm run start",
     "dev-client": "cd client & npm run start",
-    "dev-server": "cd server & npm run start"
+    "build": "concurrently \"npm run build-server\" \"npm run build-client\"",
+    "build-server": "cd server & npm run build",
+    "build-client": "cd client & npm run build"
   },
   "repository": {
     "type": "git",
