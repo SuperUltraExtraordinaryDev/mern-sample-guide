@@ -2,7 +2,9 @@
   "name": "mern-sample-guide",
   "version": "0.1.0",
   "description": "MERN Stack Sample Guide for someone who want to be a senior",
-  "scripts": {},
+  "scripts": {
+    "dev-client": "cd client & npm run start"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SuperUltraExtraordinaryDev/mern-sample-guide.git"
